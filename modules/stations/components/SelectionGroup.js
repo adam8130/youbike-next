@@ -209,9 +209,10 @@ function SelectionGroup() {
       {!isMobile && (
         <Box>
           <Image
-            src={require('../../../public/static/frame.png')}
+            src={'/static/frame.png'}
             width={502}
             height={172}
+            priority
             alt=""
           />
         </Box>

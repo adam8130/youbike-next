@@ -90,11 +90,11 @@ export function Header() {
   return (
     <Root $isMobile={isMobile} $isMobileMenuOpen={isMobileMenuOpen}>
       <Image 
-        src={require('../../public/static/logo.png')}
+        src={'/static/logo.png'}
         width={95}
         height={95}
         alt="logo"
-        unoptimized
+        priority
       />
       <ul>
         {menuItems.map((item, idx) => (
