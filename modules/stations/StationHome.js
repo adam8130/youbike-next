@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { styled, useMediaQuery } from '@mui/material';
-import SelectionGroup from './components/SelectionGroup';
+import SelectionGroup from './components/SelectionGroup/SelectionGroup';
 import { observer } from 'mobx-react-lite';
 import { useStore } from '@/store/index';
 

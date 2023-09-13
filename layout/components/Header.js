@@ -101,6 +101,7 @@ export function Header() {
           <Link 
             key={idx} 
             href={item.url}
+            onClick={() => setMobileMenuOpen(false)}
             style={
               item.url === currentRoute
                 ? isMobileMenuOpen 
